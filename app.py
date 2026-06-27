@@ -9,7 +9,6 @@ st.title("📰 Fake News Detection")
 
 st.write("Enter a news article and click Predict.")
 
-st.success("📊 Test Accuracy: 99.64%")
 st.caption("🤖 Model: Passive Aggressive Classifier + TF-IDF")
 
 st.info("💡 For best results, paste a complete news article instead of a single sentence or headline.")
