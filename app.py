@@ -7,7 +7,7 @@ with open("fake_news_model.pkl", "rb") as f:
 
 st.title("📰 Fake News Detection")
 st.write("Enter a news article and click Predict.")
-st.info("💡 For best results, enter a complete news article or a detailed paragraph upto 250 words instead of a single sentence.")
+st.info("💡 For best results, enter a complete news article or a detailed paragraphgit add . instead of a single sentence.")
 st.markdown("---")
 st.caption("Developed by Kunal")
 
