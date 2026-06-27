@@ -97,6 +97,13 @@ The trained model correctly classifies most news articles when provided with suf
 
 ---
 
+## Live Demo
+
+🔗 **Streamlit App:**  
+https://fake-news-detection-3m6c6ekdj3m5vb2vbm94jv.streamlit.app/
+
+---
+
 ## Limitations
 
 - The model was trained on a specific fake news dataset, so performance may decrease on recent or unseen news articles.
