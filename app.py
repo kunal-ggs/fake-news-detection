@@ -13,10 +13,16 @@ st.caption("🤖 Model: Passive Aggressive Classifier + TF-IDF")
 
 st.info("💡 For best results, paste a complete news article instead of a single sentence or headline.")
 
-st.warning(
-    "⚠️ This model is trained on historical data and is not 100% accurate. "
-    "Please verify important news from trusted sources before relying on the prediction."
-)
+st.warning("""
+⚠️ Disclaimer
+
+• This model is trained on a historical dataset.
+• Predictions are based only on the input text and are not 100% accurate.
+• The model may not recognize recent events or newly emerging news.
+• Please verify important news from trusted sources before making any decisions.
+
+This project is developed for educational and demonstration purposes.
+""")
 
 st.markdown("---")
 
