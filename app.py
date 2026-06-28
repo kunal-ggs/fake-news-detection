@@ -13,6 +13,11 @@ st.caption("🤖 Model: Passive Aggressive Classifier + TF-IDF")
 
 st.info("💡 For best results, paste a complete news article instead of a single sentence or headline.")
 
+st.warning(
+    "⚠️ This model is trained on historical data and is not 100% accurate. "
+    "Please verify important news from trusted sources before relying on the prediction."
+)
+
 st.markdown("---")
 
 news = st.text_area("Enter News", height=200)
